@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotiv | Portfólio</title>
+  <link rel="shortcut icon" href="imagens/logo-rotiv.jpg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <img src="imagens/Rotiv fundo transparente.png" alt="Rotiv" class="logo">
+    <p class="subtitle">Portfólio de Serviços</p>
+
+    <!-- Botões principais -->
+      <div class="links">
+      <button onclick="showGallery('eletrica')">
+      Instalações Elétricas
+      </button>
+
+      <button onclick="showGallery('comandos')">
+      Comandos Elétricos
+      </button>
+
+      <button onclick="showGallery('ar')">Climatização</button>
+      <button onclick="showGallery('outros')">Wallbox</button>
+
+    </div>
+
+    <div class="small-buttons">
+      <a href="https://rotiveletricarefrigeracao.com.br" target="_blank" class="btn-small">
+        <i class="fas fa-globe"></i> Visite nosso Site
+      </a>
+
+      <button onclick="openHistory()" class="btn-small">
+        <i class="fas fa-book"></i> Nossa História
+      </button>
+    </div>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/5521971129223" target="_blank" class="whatsapp">
+      <i class="fab fa-whatsapp"></i> Entre em contato!
+    </a>
+
+    <!-- Redes sociais -->
+    <div class="social">
+      <a href="https://www.instagram.com/rotiv2018/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.tiktok.com/@rotiv2018" target="_blank">
+        <i class="fab fa-tiktok"></i>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Galeria -->
+  <div id="galleryModal" class="modal">
+    <span class="close" onclick="closeGallery()">&times;</span>
+    <div class="gallery" id="gallery"></div>
+  </div>
+
+  <div id="historyModal" class="modal-text">
+    <div class="modal-content">
+      <span class="close-text" onclick="closeHistory()">&times;</span>
+      
+      <h3>Sobre a Rotiv</h3>
+      <p>
+        Desde 2018, a <strong>Rotiv</strong> Elétrica e Refrigeração entrega serviços com padrão profissional, segurança e excelência.
+      </p>
+      <p>
+        Atuamos com instalação de wallbox para carros elétricos, garantindo carregamento seguro e dentro das normas.
+Também somos referência em instalação e manutenção de ar-condicionado split inverter.
+      </p>
+      <p>
+        Cada serviço é feito com foco total em qualidade, durabilidade e satisfação do cliente.
+Nosso compromisso rendeu avaliação cinco estrelas no Google.
+      </p>
+      
+      <br>
+      <button onclick="closeHistory()" class="btn-fechar">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
