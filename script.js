@@ -86,13 +86,13 @@ comandos: {
       'ar-condicionado-13.jpg',
       'ar-condicionado-14.jpg',
       'ar-condicionado-15.jpg',
-      'ar-condicionado-16.jpg',
-      'ar-condicionado-17.jpg',
+      'ar-condicionado-16.jpeg',
+      'ar-condicionado-17.jpeg',
       'ar-condicionado-18.jpg',
       'ar-condicionado-19.jpg',
       'ar-condicionado-20.jpg',
       'ar-condicionado-21.jpg',
-      'ar-condicionado-22.jpg',
+      'ar-condicionado-22.jpeg',
       'ar-condicionado-23.jpg',
       'ar-condicionado-24.jpeg',
       'ar-condicionado-25.jpg',
@@ -124,7 +124,8 @@ comandos: {
       'outros-10.jpg',
       'outros-11.jpg',
       'outros-12.jpg',
-      'outros-13.jpg'
+      'outros-13.jpg',
+      'outros-14.jpg'
     ]
   }
 };
