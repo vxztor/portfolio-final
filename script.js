@@ -134,13 +134,17 @@ comandos: {
       'outros-05.jpeg',
       'outros-06.jpg',
       'outros-07.jpg',
-      'outros-08.jpg',
+      'outros-08.jpeg',
       'outros-09.jpg',
       'outros-10.jpg',
       'outros-11.jpg',
       'outros-12.jpg',
       'outros-13.jpg',
-      'outros-14.jpg'
+      'outros-14.jpeg',
+      'outros-15.jpg',
+      'outros-16.jpeg',
+      'outros-17.jpg',
+      'outros-18.jpg'
     ]
   }
 };
